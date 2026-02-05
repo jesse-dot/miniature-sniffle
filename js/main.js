@@ -117,8 +117,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Highlight active navigation based on current page
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    const navLinks2 = document.querySelectorAll('.nav-menu a');
-    navLinks2.forEach(link => {
+    const allNavLinks = document.querySelectorAll('.nav-menu a');
+    allNavLinks.forEach(link => {
         const linkPage = link.getAttribute('href');
         if (linkPage === currentPage) {
             link.classList.add('active');
@@ -126,27 +126,6 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.remove('active');
         }
     });
+
+    console.log('Riverside Academy website loaded successfully');
 });
-
-// Handle read more buttons (if needed in future)
-function toggleReadMore(element) {
-    const content = element.previousElementSibling;
-    const isExpanded = content.style.maxHeight;
-    
-    if (isExpanded) {
-        content.style.maxHeight = null;
-        element.textContent = 'Read More →';
-    } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-        element.textContent = 'Read Less ←';
-    }
-}
-
-// Simple form validation
-function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-}
-
-// Add additional interactivity as needed
-console.log('Riverside Academy website loaded successfully');
