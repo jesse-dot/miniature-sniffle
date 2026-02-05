@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Riverside Academy</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Riverside Academy</h1>
+                    <p class="tagline">Where Knowledge Meets Innovation</p>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We'd Love to Hear From You</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>Whether you're a prospective family, current parent, or community member, we're here to help. Reach out to us using any of the methods below.</p>
+                        
+                        <div class="info-block">
+                            <h3>Main Office</h3>
+                            <p><strong>Address:</strong><br>
+                            Riverside Academy<br>
+                            1250 Education Drive<br>
+                            Riverside, CA 92501</p>
+                            
+                            <p><strong>Phone:</strong> (951) 555-0100<br>
+                            <strong>Fax:</strong> (951) 555-0101</p>
+                            
+                            <p><strong>Email:</strong> info@riversideacademy.edu</p>
+                        </div>
+
+                        <div class="info-block">
+                            <h3>Office Hours</h3>
+                            <p>Monday - Friday: 7:30 AM - 4:30 PM<br>
+                            Saturday: By appointment only<br>
+                            Sunday: Closed</p>
+                        </div>
+
+                        <div class="info-block">
+                            <h3>Department Contacts</h3>
+                            <p><strong>Admissions Office</strong><br>
+                            admissions@riversideacademy.edu<br>
+                            (951) 555-0110</p>
+
+                            <p><strong>Development Office</strong><br>
+                            development@riversideacademy.edu<br>
+                            (951) 555-0120</p>
+
+                            <p><strong>Athletics Department</strong><br>
+                            athletics@riversideacademy.edu<br>
+                            (951) 555-0130</p>
+
+                            <p><strong>Business Office</strong><br>
+                            business@riversideacademy.edu<br>
+                            (951) 555-0140</p>
+                        </div>
+
+                        <div class="info-block">
+                            <h3>Emergency Contact</h3>
+                            <p>For urgent matters during school hours:<br>
+                            (951) 555-0199</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inquiry">I am a: *</label>
+                                <select id="inquiry" name="inquiry" required>
+                                    <option value="">Please select</option>
+                                    <option value="prospective-parent">Prospective Parent</option>
+                                    <option value="current-parent">Current Parent</option>
+                                    <option value="alumni">Alumni</option>
+                                    <option value="community">Community Member</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <div id="formMessage" class="form-message"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2>Visit Our Campus</h2>
+                <p>We welcome visitors to our beautiful 25-acre campus. Please call ahead to schedule a tour.</p>
+                
+                <div class="map-placeholder">
+                    <div class="map-overlay">
+                        <h3>📍 Campus Location</h3>
+                        <p>1250 Education Drive, Riverside, CA 92501</p>
+                        <p>Located in the heart of Riverside, easily accessible from the 60 and 91 freeways.</p>
+                        <a href="https://maps.google.com/?q=Riverside+CA+92501" target="_blank" class="btn btn-secondary">Get Directions</a>
+                    </div>
+                </div>
+
+                <div class="directions-info">
+                    <h3>Directions</h3>
+                    <div class="directions-grid">
+                        <div>
+                            <h4>From Los Angeles (I-10 East)</h4>
+                            <ul>
+                                <li>Take I-10 East to I-60 East</li>
+                                <li>Exit at Market Street</li>
+                                <li>Turn left onto Market Street</li>
+                                <li>Continue for 2 miles</li>
+                                <li>Turn right onto Education Drive</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>From San Diego (I-15 North)</h4>
+                            <ul>
+                                <li>Take I-15 North to CA-91 West</li>
+                                <li>Exit at Market Street</li>
+                                <li>Turn right onto Market Street</li>
+                                <li>Continue for 1.5 miles</li>
+                                <li>Turn right onto Education Drive</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p><strong>Parking:</strong> Visitor parking is available in Lot A near the main entrance. Please check in at the security office upon arrival.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="visit-section">
+            <div class="container">
+                <h2>Schedule a Campus Visit</h2>
+                <p>Experience Riverside Academy firsthand! We offer personalized campus tours Monday through Friday.</p>
+                
+                <div class="visit-options">
+                    <div class="visit-card">
+                        <h3>Individual Tours</h3>
+                        <p>Schedule a personalized tour with a member of our admissions team. Tours include:</p>
+                        <ul>
+                            <li>Meeting with admissions counselor</li>
+                            <li>Campus walkthrough</li>
+                            <li>Classroom observations</li>
+                            <li>Q&A session</li>
+                        </ul>
+                        <p><strong>Duration:</strong> 60-90 minutes</p>
+                        <a href="#" class="btn btn-primary">Schedule Individual Tour</a>
+                    </div>
+
+                    <div class="visit-card">
+                        <h3>Group Information Sessions</h3>
+                        <p>Join other prospective families for a comprehensive overview of our programs.</p>
+                        <p><strong>Upcoming Sessions:</strong></p>
+                        <ul>
+                            <li>Saturday, February 15 at 10:00 AM</li>
+                            <li>Wednesday, March 5 at 6:30 PM</li>
+                            <li>Saturday, March 22 at 10:00 AM</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Register for Session</a>
+                    </div>
+
+                    <div class="visit-card">
+                        <h3>Virtual Tours</h3>
+                        <p>Can't make it to campus? Schedule a virtual tour via Zoom.</p>
+                        <p>Our virtual tours include a live video walkthrough and Q&A session with our admissions team.</p>
+                        <p><strong>Duration:</strong> 45 minutes</p>
+                        <a href="#" class="btn btn-primary">Schedule Virtual Tour</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Riverside Academy</h4>
+                    <p>1250 Education Drive<br>
+                    Riverside, CA 92501<br>
+                    Phone: (951) 555-0100<br>
+                    Email: info@riversideacademy.edu</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Parent Portal</a></li>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Employment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Riverside Academy. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
